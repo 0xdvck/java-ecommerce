@@ -12,7 +12,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
-
+  flyway:
+    enabled: false
 # application-dev.yml
 springdoc:
   api-docs:
